@@ -1,0 +1,7 @@
+#home_page {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  
+  background-color: rgb(224, 224, 240);
+}

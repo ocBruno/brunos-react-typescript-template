@@ -1,0 +1,11 @@
+#home_entrance_animation {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.animate__pulse > div, .animate__pulse > div:before, .animate__pulse > div:after {
+    background-color: rgb(255, 179, 210);
+
+    transition: background-color 600ms ease-in-out;
+  
+}

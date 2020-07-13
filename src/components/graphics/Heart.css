@@ -1,0 +1,27 @@
+.heart {
+  cursor: pointer;
+  background-color: rgb(255, 0, 76);
+  height: 30px;
+  transform: rotate(-45deg);
+  width: 30px;
+}
+
+.heart:before {
+  content: "";
+  transform: translateY(-18px);
+  background-color: rgb(255, 0, 76);
+  border-radius: 50%;
+  height: 30px;
+  position: absolute;
+  width: 30px;
+}
+
+.heart:after {
+  content: "";
+  transform: translateX(18px);
+  background-color: rgb(255, 0, 76);
+  border-radius: 50%;
+  height: 30px;
+  position: absolute;
+  width: 30px;
+}
