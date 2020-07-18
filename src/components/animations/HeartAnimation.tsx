@@ -1,11 +1,22 @@
 import React, { useState } from 'react'
-import './HeartAnimation.css'
+import styled from 'styled-components';
 
 import Heart from 'components/graphics/Heart'
 
 interface Props {
 
 }
+
+const HeartAnimationWrapper = styled.div`
+  margin-top: 30px;
+  margin-left: 30px;
+
+  .animate__pulse > div, .animate__pulse > div:before, .animate__pulse > div:after {
+    background-color: rgb(255, 179, 210);
+
+    transition: background-color 600ms ease-in-out;
+  }
+`
 
 const HeartAnimation: React.FC<Props> = (props) => {
 
@@ -28,9 +39,9 @@ const HeartAnimation: React.FC<Props> = (props) => {
 
 
   return (
-    <section id="heart_animation" className={`animate__animated animate__${activeAnimationClass}`}>
+    <HeartAnimationWrapper className={`animate__animated animate__${activeAnimationClass}`}>
       <Heart />
-    </section>
+    </HeartAnimationWrapper>
   )
 }
 

@@ -4,9 +4,6 @@ import { Router, Route } from 'react-router-dom'
 
 import { createBrowserHistory } from 'history'
 
-import './index.css'
-import './assets/tailwind.pcss'
-
 import { HomePage } from './pages'
 
 import { HomeRoute } from './routing'

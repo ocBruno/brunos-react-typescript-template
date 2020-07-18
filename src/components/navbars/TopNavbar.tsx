@@ -1,5 +1,4 @@
 import React from 'react'
-import './TopNavbar.css'
 
 interface Props {
 

@@ -54,3 +54,5 @@ yarn add postcss
 create postcss.config.js file
 
 ## Install and setup Babel
+
+Install and create babel.config.js file

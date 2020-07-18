@@ -2,9 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
 import * as serviceWorker from './serviceWorker'
-import './index.css'
-import './reset.css'
+
 import 'animate.css'
+
+import './assets/styles/reset.css'
+import './assets/styles/index.css'
 
 ReactDOM.render(
   <React.StrictMode>
