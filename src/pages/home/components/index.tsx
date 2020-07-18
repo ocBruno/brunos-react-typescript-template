@@ -1,3 +1,7 @@
-import HomeEntranceAnimation from './animations/HomeEntranceAnimation'
+import Button from '../../../components/buttons/Button'
+import TopNavbar from '../../../components/navbars/TopNavbar'
 
-export default HomeEntranceAnimation
+export {
+  Button,
+  TopNavbar
+}

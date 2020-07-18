@@ -1,13 +1,15 @@
 import React from 'react'
 import MetaTags from 'react-meta-tags'
-import HomeEntranceAnimation from './components/animations/HomeEntranceAnimation'
+
+import {TopNavbar, Button} from './components/index'
+
+
 import './index.css'
 
+
 export interface Props {
-  /** The user's name */
-  title: string;
-  /** Should the name be rendered in bold */
-  priority?: boolean
+  /** The pages title  */
+  title: string
 }
 
 const HomePage: React.FC<Props> = (props) => {
@@ -23,9 +25,12 @@ const HomePage: React.FC<Props> = (props) => {
         </title>
 
       </MetaTags>
-
-      <HomeEntranceAnimation />
-
+      <TopNavbar>
+        <Button type="button">Enter</Button>
+      </TopNavbar>
+      <div>
+        
+      </div>
       </div>
 
   )

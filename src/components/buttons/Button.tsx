@@ -4,15 +4,16 @@ import './Button.css'
 
 interface Props {
   // button label
-  label: string
+    
+  type?: 'submit' | 'reset' | 'button'
 }
 
 const Button: React.FC<Props> = (props) => {
 
 
   return (
-    <button>
-      { props.label }
+    <button type={props.type}>
+      { props.children }
     </button>
   )
 }

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './HomeEntranceAnimation.css'
+import './HeartAnimation.css'
 
 import Heart from 'components/graphics/Heart'
 
@@ -7,7 +7,7 @@ interface Props {
 
 }
 
-const HomeEntranceAnimation: React.FC<Props> = (props) => {
+const HeartAnimation: React.FC<Props> = (props) => {
 
   const [activeAnimationClass, setActiveAnimationClass] = useState(``)
 
@@ -28,10 +28,10 @@ const HomeEntranceAnimation: React.FC<Props> = (props) => {
 
 
   return (
-    <section id="home_entrance_animation" className={`animate__animated animate__${activeAnimationClass}`}>
+    <section id="heart_animation" className={`animate__animated animate__${activeAnimationClass}`}>
       <Heart />
     </section>
   )
 }
 
-export default HomeEntranceAnimation
+export default HeartAnimation
