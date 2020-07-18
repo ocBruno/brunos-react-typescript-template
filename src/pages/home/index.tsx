@@ -20,7 +20,9 @@ const HomePage: React.FC<Props> = (props) => {
     <div id="home_page" className="page">
 
       <TopNavbar>
+        <Button type="button">Home</Button>
         <Button type="button">Enter</Button>
+        <Button type="button">Navigate</Button>
       </TopNavbar>
 
       <div>

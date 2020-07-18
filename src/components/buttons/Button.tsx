@@ -1,6 +1,4 @@
 import React from 'react'
-import './Button.css'
-
 
 interface Props {
   // button label
@@ -9,7 +7,6 @@ interface Props {
 }
 
 const Button: React.FC<Props> = (props) => {
-
 
   return (
     <button type={props.type}>
