@@ -1,23 +1,27 @@
 import React from 'react'
+import styled from 'styled-components'
 
 import {
-  TopNavbar, Button
+  TopNavbar, Button, EntranceCard
 } from './components/index'
-
-
-import './index.css'
-
 
 export interface Props {
   /** The pages title  */
   title: string
 }
 
+const HomePageWrapper = styled.div.attrs({
+  className: `flex`
+})`
+  background-color: rgb(224, 224, 240);
+`
+
+
 const HomePage: React.FC<Props> = (props) => {
 
   return (
 
-    <div id="home_page" className="page">
+    <HomePageWrapper>
 
       <TopNavbar>
         <Button type="button">Home</Button>
@@ -31,7 +35,7 @@ const HomePage: React.FC<Props> = (props) => {
 
       </div>
 
-      </div>
+      </HomePageWrapper>
 
   )
 
