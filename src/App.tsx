@@ -18,7 +18,7 @@ function App() {
 
       <Route path={HomeRoute}>
 
-        <HomePage title="Home" />
+        <HomePage />
 
       </Route>
 
