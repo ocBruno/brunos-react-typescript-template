@@ -6,14 +6,10 @@ interface Props {
 
 }
 
-const TopNavbarWrapper = styled.ul.attrs({
-  className: "flex flex-col h-screen justify-center items-center bg-gray-100",
+const TopNavbarWrapper = styled.div.attrs({
+  className: "flex w-screen justify-start bg-gray-100 h-12",
 })`
-  ${tw`flex`}
 
-  li {
-    ${tw`flex-col`}
-  }
 `
 
 const TopNavbar: React.FC<Props> = (props) => {

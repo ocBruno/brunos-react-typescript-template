@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { PageTitle } from '../../assets/text/home/index.json'
 
 import {
-  TopNavbar, Button, EntranceCard
+  TopNavbar, NavItem, EntranceCard
 } from './components/index'
 
 export interface Props {
@@ -25,9 +25,11 @@ const HomePage: React.FC<Props> = (props) => {
 
       <TopNavbar>
 
-        <Button type="button">{ PageTitle }</Button>
-        <Button type="button">Enter</Button>
-        <Button type="button">Navigate</Button>
+        <NavItem>
+          { PageTitle }
+        </NavItem>
+        <NavItem>Enter</NavItem>
+        <NavItem>Navigate</NavItem>
 
       </TopNavbar>
 
