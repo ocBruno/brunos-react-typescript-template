@@ -20,7 +20,9 @@ const NavItemWrapper = styled.button.attrs({
     hover:bg-pink-500
     px-2
     rounded
-    transition-colors
+    transition
+    duration-500
+    ease-in-out
   `
 })`
 
