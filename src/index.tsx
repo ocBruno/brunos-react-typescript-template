@@ -10,6 +10,7 @@ import './assets/styles/index.css'
 
 ReactDOM.render(
   <React.StrictMode>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
     <App />
   </React.StrictMode>,
   document.getElementById('root')

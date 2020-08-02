@@ -4,9 +4,9 @@ import { Router, Route } from 'react-router-dom'
 
 import { createBrowserHistory } from 'history'
 
-import { HomePage } from './pages'
+import { BrunosPortfolio } from './pages'
 
-import { HomeRoute } from './routing'
+import { BrunosPortfolioRoute } from './routing'
 
 
 function App() {
@@ -16,9 +16,9 @@ function App() {
   return (
     <Router history={history}>
 
-      <Route path={HomeRoute}>
+      <Route path={BrunosPortfolioRoute}>
 
-        <HomePage />
+        <BrunosPortfolio />
 
       </Route>
 

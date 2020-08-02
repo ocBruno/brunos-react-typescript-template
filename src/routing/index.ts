@@ -1,3 +1,3 @@
 export const HomeRoute: string = `/`
 
-export const Dashboard: string = `/dashboard`
+export const BrunosPortfolioRoute: string = `/brunos-portfolio`

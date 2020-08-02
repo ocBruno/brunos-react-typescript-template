@@ -1,3 +1,4 @@
 import HomePage from './home'
+import BrunosPortfolio from './brunos-portfolio'
 
-export { HomePage }
+export { HomePage, BrunosPortfolio }

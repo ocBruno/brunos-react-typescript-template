@@ -11,7 +11,7 @@ const NavItemWrapper = styled.button.attrs({
     inline-flex
     justify-center
     items-center
-    mr-3
+    mx-3
     text-pink-400
     border-solid
     border-2
@@ -21,8 +21,10 @@ const NavItemWrapper = styled.button.attrs({
     px-2
     rounded
     transition
-    duration-500
-    ease-in-out
+    transform
+    duration-100
+    ease-in
+    hover:scale-105
   `
 })`
 

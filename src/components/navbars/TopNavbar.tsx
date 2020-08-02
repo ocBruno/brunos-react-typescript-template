@@ -6,7 +6,14 @@ interface Props {
 }
 
 const TopNavbarWrapper = styled.div.attrs({
-  className: "flex w-screen justify-start bg-gray-100 h-12",
+  className: `
+    flex
+    w-screen
+    justify-start
+    bg-gray-100
+    h-12
+    py-2
+  `,
 })`
 
 `

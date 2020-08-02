@@ -11,9 +11,12 @@ export interface Props {
 }
 
 const HomePageWrapper = styled.div.attrs({
-  className: `flex`
+  className: `
+    flex
+    h-screen
+    w-screen
+  `
 })`
-  background-color: rgb(224, 224, 240);
 `
 
 
