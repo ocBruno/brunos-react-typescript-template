@@ -10,13 +10,17 @@ interface Props {
 
 const PortfolioPersonCardWrapper = styled.div.attrs({
   className: `
-    flex
+    inline-flex
     flex-col
-    h-screen
     justify-center
     items-center
     bg-gray-100
-    rounded
+    rounded-lg
+    w-60
+    h-60
+    p-10
+    shadow-xl
+    bg-blue-100
   `
 })`
 
@@ -24,19 +28,26 @@ const PortfolioPersonCardWrapper = styled.div.attrs({
 
 const PersonPortrait = styled.img.attrs({
   className: `
-    rounded
-    shadow-300
-    w-20
-    h-20
+    rounded-full
+    shadow-md
+    w-40
+    h-40
   `
 })`
 
 `
+const Name = styled.div.attrs({
+  className: `
+    prose
+  `
+})``
 
 const PortfolioPersonCard: React.FC<Props> = (props) => {
   return (
     <PortfolioPersonCardWrapper>
+      <Name>Bruno</Name>
       <PersonPortrait src={props.imgSrc} alt={props.imgAlt} />
+
     </PortfolioPersonCardWrapper>
   )
 }
